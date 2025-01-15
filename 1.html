@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.stock-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.stock-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stock-change {
+  display: flex;
+  align-items: center;
+}
+
+.change-value {
+  margin-left: 5px;
+}
+
+.after-hours {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="stock-info">
+  <span class="stock-value">1,049.61 USD</span>
+  <div class="stock-change">
+    <span style="color: green;">+18.05 (1.75%)</span>
+    <span class="change-value">today</span>
+  </div>
+</div>
+
+<div class="after-hours">
+  After hours 1,048.00 -1.61 (0.15%)
+</div>
+
+</body>
+</html>

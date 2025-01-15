@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+
+.header-box{
+    height: 36px;
+    align-items: center;
+    
+}
+.heading1 {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.heading2 {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.heading3 {
+    background-color: yellow;
+    display: flex;
+    flex: 1;
+}
+
+.menu-img {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+}
+
+.icon-doodle {
+   height: 35px;
+   margin-left: 7px;
+}
+
+.search-bar {
+    height: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.search-icon {
+    height: 28px;
+    background-color: grey;
+    border-color: rgb(21, 21, 206);
+    padding-left: 10px;
+    margin-right: 13px;
+}
+
+.mike {
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(47, 46, 46);
+}
