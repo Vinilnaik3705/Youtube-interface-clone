@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="watchstyle.css">
-
+    <link rel="stylesheet" href="headingstyle.css">
+    <link rel="stylesheet" href="bodystyle.css">
     <head>
         <title>WatchIt</title>
-        <link rel="icon" href="icons/cinema.png">
+        <link rel="icon" href="icons and images/cinema.png">
     </head>
 
-    <body>
+    <body style="height: 1000px;">
         <div class="header-box" style="display: flex;
         flex-direction: row;">
             <div class="heading1">
-                <img class="menu-img" src="icons/menu-bar.png"> 
-                <img class="icon-doodle" src="https://www.gstatic.com/youtube/img/promos/growth/f1492e84c5d8f9059800f7de726a3bd2712c069f2ca644f26e897ff15542b05d_244x112.webp">
+                <img class="menu-img" src="icons and images/menu-bar.png"> 
+                <img class="icon" src="icons and images/YouTube-logo.png">
             </div>
+
             <div class="heading2">
+               
                 <input class="search-bar" type="text" placeholder="Search">
-                <img class="search-icon" src="icons/search.png">
-                <img class="mike" src="icons/microphone.png">
+                <button class="search-button"><img class="search-icon" src="icons and images/search.png"></button>
+                <button class="mike-button"><img class="mike" src="icons and images/microphone.png"></button>
             </div>
+
             <div class="heading3">
-                section3
+                <button class="new"><img class="plus-sign" src="icons and images/plus.png">Create</button>
+                <img class="profile-pic" src="icons and images/car pic.jpg">
+            </div>
+        </div>
+
+       
+
+        <div class="body-box" style="display: flex;
+         flex-direction: row;">
+            <div class="video1">
+                <img class="clip1" src="icons and images/video1.avif">
+            </div>
+
+            <div class="video2">
+                <img class="clip2" src="icons and images/video2.avif">
+            </div>
+
+            <div class="video3">
+                <img class="clip3" src="icons and images/video3.avif">
+            </div>
+        </div>
+
+        <div class="info" style = "
+        display:grid;
+        grid-template-columns: 300px 315px 300px;
+        height: 70px;
+        margin-top:7px;">
+            <div class="info1" style="background-color: blue;">
+                <img class="channel-img1" src="icons and images/channel1.jpg">
+                <div>WORLD IS CONGRATULATING INDIA | 4TH NATION TO DOCK IN SPACE | India is Master of Docking Technology</div>
+            </div>
+
+            <div class="info2" style="background-color: green;">
+                1fr
+            </div>
+
+            <div class="info3" style="background-color: red;">
+                1fr
             </div>
         </div>
     </body>

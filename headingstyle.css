@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    background-color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.header-box{
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.heading1 {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.heading2 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.box{
+    
+    width: 10px;
+    border-radius: 50% 0px 0px 0px;
+}
+
+.heading3 {
+    display: flex;
+    flex: 1;
+}
+
+.menu-img {
+    height: 15px;
+    width: 15px;
+    margin-left: 18px;
+}
+
+.icon {
+   height: 50px;
+   margin-left: 5px;
+   margin-right: 100px;
+}
+
+.search-bar {
+    height: 22px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-width: 0.002px;
+    border-color: rgb(118, 117, 117);
+    background-color: rgb(17, 17, 17);
+    color: aliceblue;
+    font-size: 10px;
+    position: relative;
+    width: 330px;
+}
+
+.search-bar:hover {
+    outline: none;
+}
+
+.search-bar:active {
+    outline: none;
+}
+
+.search-button {
+    height: 25px;
+    width:  41px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 0.002px;
+    border-color: rgb(118, 117, 117);
+    background-color: rgb(39, 38, 38);
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-right: 10px;
+}
+
+.search-button:hover{
+    opacity: 0.8;
+}
+
+.search-button:active{
+    opacity: 0.65;
+}
+.search-icon {
+    height: 16px;
+    background-color: rgb(39, 38, 38);
+    padding-left: 7px;
+    padding-top: 2px;
+    margin-right: 13px;
+}
+
+.mike-button {
+    height: 25px;
+    width: 27px;
+    background-color: rgb(39, 38, 38);
+    border-radius: 30px;
+    border-width: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    margin-right: 111px;
+}
+.mike {
+    height: 15px;
+    background-color: rgb(39, 38, 38);
+    padding-top: 1px;
+    margin-top: 3px;
+}
+
+.mike-button:hover {
+    opacity: 0.8;
+}
+
+.mike-button:active {
+    opacity: 0.6;
+}
+
+.plus-sign {
+    height: 11px;
+    background-color: rgb(39, 38, 38);
+    margin-right: 5px;
+}
+.new {
+    color: aliceblue;
+    background-color: rgb(39, 38, 38);
+    border-radius: 30px;
+    font-size: 10px;
+    height: 23px; 
+    width: 61px;
+    padding-top: -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 0;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    margin-right: 15px;
+}
+
+.new:hover {
+    opacity: 0.8;
+}
+
+.new:active {
+    opacity: 0.65;
+}
+
+.profile-pic {
+    height: 23px;
+    border-radius: 30px;
+    width: 23px;
+}
+
+
